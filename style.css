@@ -1,12 +1,16 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
  }
+
 .upper-section{
      display: flex;
      align-items: center;
-     justify-content: center;
-     /* margin-top: 40px; */
-     text-align: center;
+     justify-content: center; 
+      text-align: center;
+  
+    
+
+   
     } 
 
  .wrapper{
@@ -16,24 +20,24 @@
 
 
 
+
 .sign-up-section{
     border: 1px solid rgb(217, 217, 217);
     height: 35px;
     width: 300px;
      padding: 20px;
-    /* align-items: center; */
-    /* justify-content: center; */
+   ;
 }
 
- .upper-section .wrapper .logo-section .form-section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    border-radius: 8px;
-    height: 400px;
-    width: 400px;
-    
+.upper-section .wrapper .logo-section .form-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  height: 400px;
+  width: 400px;
+  
   
    
 }
@@ -56,21 +60,18 @@
     margin-top: 30px;
     margin-bottom: 20px;
     border: none;
-}
+  }
  
-
+  
  .input-container h1{
-    font-size:40px;
+    font-size:30px;
     display: flex; 
     justify-content: center;
-    /* margin-top: 15px; */
-
-    /* border: 1px solid rgb(166, 166, 166); */
-    padding: 10px;
+     padding: 10px;
     background-color: rgb(255, 255, 255);
-    /* height: 150px; */
+
     text-align: center;
- 
+    
  
 }
 .form-section .input-container a{
@@ -83,21 +84,23 @@
 
 
  .wrapper .logo-section .form-section .input-container {
-    border: 1px solid rgb(217, 217, 217);
+   border: 1px solid rgb(217, 217, 217);
     height: 500px;
     width: 300px;
      padding: 20px;
     align-items: center;
     justify-content: center;
+
   }
   
   .wrapper .logo-section .input-container .input-field {
     width: 80%;
     height: 30px;
     border: 1px solid rgb(166, 166, 166);
-   
+    background-color: rgba(241, 241, 241, 0.949);
+    
   }
-
+  
   .wrapper .logo-section .input-container button {
     width: 80%;
     height: 30px;
@@ -106,15 +109,65 @@
     background-color:rgb(32, 32, 228); 
     color: white;
     cursor: pointer;
-  }
+}
   
 
-/* .logo-section .input-field{
-    width:60%;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid rgb(166, 166, 166);
-    padding-left: 15px;
-    margin-bottom: 20px;
-    
-} */
+
+.footer{
+  width: 100%;
+}
+
+.footer-section .footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-decoration: none;
+  margin: 0; 
+  padding: 0; 
+}
+
+.footer-section .footer-links ul {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+}
+
+.footer-section .footer-links li {
+  text-decoration: none;
+  margin: 0 10px; 
+}
+
+.footer-section .footer-links a {
+  text-decoration: none;
+  color: rgb(177, 177, 177);
+  font-size: 10px;
+}
+
+.footer-section .footer-links a:hover {
+  text-decoration: underline;
+  color: rgb(176, 176, 176);
+}
+
+.footer-copyright-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0; 
+}
+
+.footer-copyright-section ul {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+}
+
+.footer-copyright-section li {
+  text-decoration: none;
+}
+
+.footer-copyright-section a {
+  text-decoration: none;
+  color: rgb(177, 177, 177);
+  font-size: 10px;
+  cursor: pointer;
+}

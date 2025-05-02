@@ -10,6 +10,7 @@
   text-align: center;
   margin-top: 40px;
   
+  
 }
 
 .wrapper {
@@ -40,7 +41,6 @@
 }
 
 .upper-section .wrapper .logo-section .form-section {
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -112,69 +112,6 @@
 }
 /* Upper Section Styling Ended */
 /* Footer Styling Started */
-/* .footer-section{
-  width:100%;
-}
-
-.footer-section .footer-links-section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 40px;
-  
-}
-
-.footer-section .footer-links-section ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-section .footer-links-section li {
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.footer-section .footer-links-section a {
-  text-decoration: none;
-  color: rgb(177, 177, 177);
-  font-size: 11px;
-}
-
-.footer-section .footer-links-section a:hover {
-  text-decoration: underline;
-  color: rgb(176, 176, 176);
-}
-
-.footer-copyright-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0;
-  font-size: 11px;
-}
-
-
-
-
-.footer-copyright-section ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-copyright-section li {
-  text-decoration: none;
-}
-
-.footer-copyright-section a {
-  text-decoration: none;
-  color: rgb(177, 177, 177);
-  font-size: 10px;
-  cursor: pointer;
-} */
-/* Footer Styling Ended */
-
 @media (max-width: 550px){
   .wrapper .logo-section .form-section .input-container{
     border: none;
@@ -256,3 +193,4 @@
     gap: 5px;
   }
 }
+/* Footer Styling Ended */

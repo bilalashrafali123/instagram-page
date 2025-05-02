@@ -19,17 +19,28 @@
 
 .sign-up-section {
   border: 1px solid rgb(217, 217, 217);
-  padding: 10px;
+  padding: 15px 0;
   margin-top:10px;
+  
+}
+
+.sign-up-section p{
+  margin: 0;
+}
+
+.sign-up-section a{
+  text-decoration: none;
 }
 
 
+
 .input-container .or-section{
-   margin-top: 8px;
+   
    border-bottom: 1px solid rgb(207, 207, 207);
    height: 9px;
+   margin-top: 20px;
    }
-
+ 
 .input-container .or-section .or{
   display: inline-block;
   background: #fff;
@@ -64,6 +75,7 @@
   background-color: rgb(217, 217, 217);
   margin: 30px 0 20px;
   border: none;
+  
 }
 
 .input-container h1 {
@@ -79,6 +91,8 @@
   text-decoration: none;
   cursor: pointer;
   color: rgb(67, 67, 247);
+  
+  
 }
 
 .wrapper .logo-section .form-section .input-container {
@@ -97,7 +111,7 @@
 }
 
 .wrapper .logo-section .input-container button {
-  width: 82%;
+  width: 88%;
   padding: 10px;
   border-radius: 7px;
   border: 1px solid rgb(166, 166, 166);

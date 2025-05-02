@@ -1,13 +1,14 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
+* {
+  font-family:Arial, Helvetica, sans-serif ;
+}
+ /* Upper Section Styling Started */
 .upper-section {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .wrapper {
@@ -89,37 +90,38 @@
   color: white;
   cursor: pointer;
 }
-
+/* Upper Section Styling Ended */
+/* Footer Styling Started */
 .footer {
   width: 100%;
 }
 
-.footer-section .footer-links {
+.footer-section .footer-links-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  
 }
 
-.footer-section .footer-links ul {
+.footer-section .footer-links-section ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.footer-section .footer-links li {
+.footer-section .footer-links-section li {
   text-decoration: none;
   margin: 0 10px;
 }
 
-.footer-section .footer-links a {
+.footer-section .footer-links-section a {
   text-decoration: none;
   color: rgb(177, 177, 177);
   font-size: 10px;
 }
 
-.footer-section .footer-links a:hover {
+.footer-section .footer-links-section a:hover {
   text-decoration: underline;
   color: rgb(176, 176, 176);
 }
@@ -147,3 +149,4 @@
   font-size: 10px;
   cursor: pointer;
 }
+/* Footer Styling Ended */

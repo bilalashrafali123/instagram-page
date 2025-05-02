@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   
 }
 
@@ -40,7 +40,7 @@
 }
 
 .upper-section .wrapper .logo-section .form-section {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -174,3 +174,16 @@
   cursor: pointer;
 }
 /* Footer Styling Ended */
+
+@media (max-width: 550px){
+  .wrapper .logo-section .form-section .input-container{
+    border: none;
+  }
+  .sign-up-section{
+    border: none;
+  }
+  .footer-section .footer-links-section{
+  flex-wrap: wrap;
+
+  }
+}

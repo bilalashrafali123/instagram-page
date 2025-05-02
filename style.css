@@ -237,11 +237,10 @@
 .footer-copyright-section a {
   color: #737373;
   text-decoration: none;
+  font-size:11px ;
 }
 
-.footer-copyright-section a:hover {
-  text-decoration: underline;
-}
+
 
 @media (max-width: 550px) {
   .footer-links {
